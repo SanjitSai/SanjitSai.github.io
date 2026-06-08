@@ -1071,38 +1071,34 @@
             <div>
               <div class="exp-project-name">AI-Assisted Support Bot</div>
               <ul class="exp-bullets">
-                <li>Built a production LangGraph support agent enabling natural language database querying &amp;
-                  updates, replacing manual lookup workflows entirely.</li>
-                <li>Implemented multi-layer guardrails (malicious query detection, off-topic filtering) and role-based
-                  access controls (RBAC) to scope agent actions per user authorization.</li>
-                <li>Integrated persistent agentic memory for multi-turn context retention, eliminating repetitive
-                  re-prompting.</li>
-                <li>Engineered dynamic tool-calling functions for schema-aware, real-time query generation without
-                  hardcoded logic.</li>
+                <li>Built a production LangGraph support agent enabling a team of 10–15 members to query and update live database records via natural language — no SQL expertise required.</li>
+                <li>Reduced query turnaround from 10–15 minutes of manual SQL writing to under 30 seconds end-to-end, including query generation, review, and user-approved execution.</li>
+                <li>Implemented multi-layer guardrails (malicious query detection, off-topic filtering) and role-based access controls (RBAC) to scope agent actions per user authorization.</li>
+                <li>Integrated persistent agentic memory for multi-turn context retention, eliminating repetitive re-prompting.</li>
+                <li>Engineered tool dispatch using Model Context Protocol (MCP) for schema-aware, dynamic database operations that adapt to user intent — no hardcoded logic.</li>
+                <li>Partnered with the support team to define scope and iterated through structured UAT feedback cycles, delivering a solution validated and adopted by end users.</li>
               </ul>
             </div>
             <div>
               <div class="exp-project-name">LLM-Powered Analytics Platform — NL→SQL</div>
               <ul class="exp-bullets">
-                <li>Led end-to-end design of the org's first production LLM analytics platform, enabling plain-English
-                  querying of live databases for non-technical users.</li>
-                <li>Architected a RAG layer over database schemas enriching 80+ column tables with semantic descriptions
-                  and value contexts for accurate table selection.</li>
-                <li>Engineered multi-table JOIN reasoning by embedding primary/foreign key relationships into
-                  table-level descriptions.</li>
-                <li>Benchmarked LLaMA 3.1 8B, LLaMA 3.2 3B, GPT-3.5, and GPT-OSS 20B with structured prompt versioning
-                  logs to drive model selection.</li>
+                <li>Led end-to-end design of the org's first production LLM analytics platform, enabling plain-English querying of live databases and eliminating SQL dependency across BA workflows.</li>
+                <li>Iterated through client demo cycles, incorporating feedback directly into product improvements and roadmap prioritization.</li>
+                <li>Architected a RAG layer over database schemas enriching 80+ column tables with semantic descriptions and value contexts for accurate table selection.</li>
+                <li>Engineered multi-table JOIN reasoning by embedding primary/foreign key relationships into table-level descriptions.</li>
+                <li>Built a full query execution pipeline with dynamic DataFrame generation and visualization outputs, reducing analyst turnaround from hours to near real-time self-serve.</li>
+                <li>Built a custom LLM eval tracker across 4 models (LLaMA 3.1 8B, LLaMA 3.2 3B, GPT-3.5, GPT-OSS 20B) — tracked SQL accuracy, prompt versions, and regressions to drive final model selection.</li>
+                <li>Collaborated with a 3-person BA team to document table semantics; presented platform roadmap to senior management, securing organizational buy-in.</li>
               </ul>
             </div>
             <div>
               <div class="exp-project-name">Business Rule Engine — Loan Policy Intelligence</div>
               <ul class="exp-bullets">
-                <li>Fine-tuned Qwen 2.5 Coder 7B via LoRA/Unsloth on a custom domain dataset, improving rule extraction
-                  accuracy from 78% to 90% on 15 unseen policy documents.</li>
-                <li>Reduced loan policy review turnaround from ~1 week to under 4 hours — a 95%+ cycle-time reduction
-                  validated through structured UAT.</li>
-                <li>Built a natural-language chatbot for credit teams to query, explain, and update business rules
-                  without technical intervention.</li>
+                <li>Designed and delivered the org's first AI-driven BRE, parsing loan and credit policy documents into structured executable logic — used daily by COE and credit teams, with 5 policies spanning ~250 distinct business rules processed since deployment.</li>
+                <li>Fine-tuned Qwen 2.5 Coder 7B via LoRA/Unsloth on a custom domain dataset, improving rule extraction accuracy from 78% to 90% on 15 unseen policy documents.</li>
+                <li>Post-deployment, human involvement limited to verifying AI output and minor tweaks — validated by the BA team across 5–10 policies of varying complexity.</li>
+                <li>Built a natural-language chatbot for credit teams to query, explain, and update business rules without technical intervention.</li>
+                <li>Reduced loan policy review turnaround from ~1 week to under 4 hours — a 95%+ cycle-time reduction confirmed through structured BA-led UAT.</li>
               </ul>
             </div>
             <div>
